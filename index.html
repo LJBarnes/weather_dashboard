@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- LINK NORMALIZE CSS -->
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <div class="card">
+        <h5 class="card-header text-center">Weather Dashboard</h5>
+    </div>
+    <div class="container-fluid pl-0">
+        <!-- <div class="row">
+            <div class="col-md-4">
+                <form class="form-inline searchBar">
+                    <div class="form-group mx-sm-3 mt-sm-3 ">
+
+
+                        <input type="text" class="form-control " id="search-term" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-primary searchBtn mt-sm-3"><i
+                            class="fas fa-search fa-sm"></i></button>
+                </form>
+            </div>
+            <div class="col-md-8 weatherDisplay mt-sm-3">
+                
+            </div>
+
+        </div> -->
+        <div class="container">
+            <p id="one">Search by city:</p>
+            <div id="search">
+                <form id="search-term" class="form-inline">
+                    <div class="form-group mx-sm-3">
+                        <label for="SearchTerm" class="sr-only">Search by city:</label>
+                        <input type="text" class="form-control" id="search-term" placeholder="city">
+                        <button type="submit" id="searchBtn" class="btn btn-primary ml-2"><i
+                            class="fas fa-search fa-sm"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="weatherDisplay">
+            </div>
+            <div class="weatherDisplay2">
+
+            </div>
+        </div>
+
+
+        <!-- <div class="row">
+        <div class="col-3 text-center">
+            <div class="spacer"></div>
+
+            
+        </div>
+        </div>
+    </div>
+
+    <div class="col-9 text-center weatherDisplay">
+        <p>div here</p>
+
+    </div> -->
+
+</body>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
