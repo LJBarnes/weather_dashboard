@@ -50,6 +50,10 @@ $('#searchBtn').on('click', function (event) {
 
 // need to fix layout
 // Need to save info from search into local/get from local so it stays on refresh. 
+// create function for saving to local
+// create function for getting from local
+// run get saved function before click event listener
+// run save item/set item at the end of/inside of click event listener *look at day planner*
 
 
 
