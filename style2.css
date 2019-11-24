@@ -25,6 +25,17 @@ html, body{
     color: white;
 }
 
+.oldSearches {
+    margin-top: 20px;
+}
+
+.color{
+    background: lightgray;
+    border: solid 1px black;
+    
+}
+
+
 /* .wrapper{
     float: left;
 } */
