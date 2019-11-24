@@ -21,7 +21,8 @@ $('#searchBtn').on('click', function (event) {
     })
 
         .then(function (response) {
-
+            $(".weatherDisplay").empty();
+            $(".weatherDisplay2").empty();
             console.log(response);
             var icon = response.weather[0].icon;
             var cityName = response.name;
