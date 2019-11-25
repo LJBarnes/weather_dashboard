@@ -5,5 +5,5 @@ A weather dashboard application with search functionality to find current weathe
 # How it works
 
 Powered by Jquery, this application uses AJAX to retrieve data in JSON format from OpenWeather API. It then dynamically updates the HTML with the data retrieved from the API to display the city name, an icon depicting the current weather conditions, wind speed, temperature, and humidity. 
-![weatherdbd1](https://user-images.githubusercontent.com/53705501/69508051-9dcc8900-0f02-11ea-82b7-78792eb115d7.png)
-![weatherdbd2](https://user-images.githubusercontent.com/53705501/69508072-a624c400-0f02-11ea-89da-adfc7c176210.png)
+![weatherdbd1](https://user-images.githubusercontent.com/53705501/69586068-6d8ef400-0faf-11ea-9b62-9af85ef862dc.png)
+![weatherdbd2](https://user-images.githubusercontent.com/53705501/69586069-6d8ef400-0faf-11ea-9668-c21560d6f230.png)
