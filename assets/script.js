@@ -1,9 +1,7 @@
 var APIKey = "b7f3a42edd03800bbd2a49ee7ab27d01";
-//  ***not working when I substitute this var for the hardcoded one***
-
-// var userSearchTerm = "chicago";
 var city = [];
 var x = 0;
+var previousCity;
 
 $('#searchBtn').on('click', function (event) {
     var userSearchTerm = $("#search-term").val().trim();
@@ -99,17 +97,5 @@ function displayOldSearch() {
     }
 
 }
-// need to fix layout
-// Need to save info from search into local/get from local so it stays on refresh. 
-// create function for saving to local
-// create function for getting from local
-// run get saved function before click event listener
-// run save item/set item at the end of/inside of click event listener *look at day planner*
 
-
-
-
-
-
-// var tempF = (temperature - 273.15) * 1.80 + 32;
-
+// Not sure how to make this persist using local storage...
