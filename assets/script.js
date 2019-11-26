@@ -98,4 +98,3 @@ function displayOldSearch() {
 
 }
 
-// Not sure how to make this persist using local storage...
