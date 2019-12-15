@@ -4,6 +4,7 @@ var x = 0;
 var previousCity;
 
 $('#searchBtn').on('click', function (event) {
+    console.log("click");
     var userSearchTerm = $("#search-term").val().trim();
     var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
         "q=" + userSearchTerm + "&units=imperial&appid=" + APIKey;
@@ -56,6 +57,7 @@ $('#searchBtn').on('click', function (event) {
 });
 
 function displayOldSearch() {
+    $(".oldSearches").empty();
     // shouldn't this loop through all of the city array? only showing previous one...
     for (var i = 0; i < city.length; i++) {
 
@@ -73,7 +75,8 @@ function displayOldSearch() {
         })
 
             .then(function (oldSearchResponse) {
-                $(".oldSearches").empty();
+                // 
+                
 
                 console.log(oldSearchResponse);
 
@@ -91,7 +94,7 @@ function displayOldSearch() {
                 $(".oldSearches").append("<br>");
                 $(".oldSearches").append("Wind Speed: " + oldWindSpeed + "MPH <br>");
                 $(".oldSearches").append("Temperature: " + oldTemperature + "°F <br>");
-                $(".oldSearches").append("Humidity: " + oldHumidity + "%");
+                $(".oldSearches").append("Humidity: " + oldHumidity + "%<br><br>");
 
             });
     }
